@@ -1,0 +1,209 @@
+body {
+	font-family: 'Roboto', sans-serif;
+    background:url(../images/1.jpg) no-repeat 0px 0px;
+	background-size:cover;
+    background-attachment: fixed;  
+   
+}
+
+/*-- main --*/
+.main-agile {
+    padding: 2em 0;
+}
+.content{
+    width: 50%;
+    margin: 0 auto;
+   
+} 
+.top-grids {
+    margin: 3em 0 0 0;
+    margin-left: 20%;
+    
+}
+.top-grids-left,.top-grids-right{
+    width: 47.9%;
+    float: left;
+    
+}
+.signin-form{
+	background: rgba(2, 9, 41, 0.849);
+    padding: 2em;
+    -webkit-appearance: none;
+    
+}
+.signin-form h2,.signin-form h3,.signin-form h3{
+    font-size: 1.2em;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0 0 1em 0;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    background-position:center ;
+}
+.signin-form input[type="text"],.signin-form input[type="email"], .signin-form textarea{
+    outline: none;
+    font-size: .9em;
+    color: #FFFFFF;
+    padding: 1em 1em;
+    margin: 0;
+    width: 92.5%;
+    border: none;
+    border-bottom: solid 1px #e2eaef;
+    -webkit-appearance: none;
+    display: block;
+    background: none;
+}
+
+
+.signin-form input[type="checkbox"]:checked+label span:first-child:before {
+    content: "";
+    background: url(../images/tick.png)no-repeat;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    font-size: 10px;
+    width: 10px;
+    height: 10px;
+}
+.signin-form input[type="submit"] {
+    font-size: 1em;
+    color: #fff;
+    background: #009ffb;
+    border: 2px solid #009ffb;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: .6em 1em;
+    width: 100%;
+    -webkit-appearance: none;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+.signin-form input[type="submit"]:hover {
+    background: none;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+}
+.signin-agileits-bottom p {
+    text-align: center;
+    margin: 1.5em 0 0 0;
+    font-size: .9em;
+}
+.signin-agileits-bottom p a {
+    color: #ffffff;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    transition: 0.5s all;
+}
+.signin-agileits-bottom p a:hover {
+    color: #009ffb;
+}
+.social-text {
+    float: left;
+    width: 50%;
+}
+.social-text p {
+    color: #ffffff;
+    margin: 1em 0 0 1em;
+    font-size: .9em;
+}
+
+.signin-firm{
+    background: #009ffb;
+    padding: 1em;
+}
+
+.top-grids-right {
+    margin: 0 0 0 2em;
+}
+
+.recover-password{
+	margin:2em 0;
+}
+.recover-password input[type="email"]{
+	margin:0 0 2em 0;
+}
+
+/*-- responsive --*/
+@media(max-width:1440px){
+	.top-grids-left, .top-grids-right {
+		width: 47%;
+	}
+}
+@media(max-width:1366px){
+	.content {
+		width: 60%;
+	}
+}
+@media(max-width:1280px){
+	.content {
+		width: 70%;
+	}
+}
+@media(max-width:800px){
+	.content {
+		width: 90%;
+	}
+}
+@media(max-width:736px){
+	.social-text {
+		width: 40%;
+	}
+	.social-icons {
+		width: 60%;
+	}
+}
+@media(max-width:667px){
+	.signin-form h2, .signin-form h3, .signin-form h3 {
+		font-size: 1em;
+	}
+	.main-agile h1 {
+		font-size: 2.5em;
+	}
+}
+
+@media(max-width:600px){
+	.top-grids-left, .top-grids-right {
+		width: 100%;
+		float: none;
+	}
+	.top-grids-right {
+		margin: 2em 0 0 0em;
+	}
+	.signin-form h2, .signin-form h3, .signin-form h3 {
+		font-size: 1.5em;
+	}
+}
+
+	
+
+@media(max-width:384px){
+	.social-text p {
+		margin: 1em 0 0 0em;
+	}
+}
+@media(max-width:320px){
+	.main-agile h1 {
+		font-size: 1.7em;
+	}
+	.social-text {
+		width: 100%;
+		float: none;
+		text-align: center;
+		margin: 0 0 1em 0;
+	}
+	
+	.signin-form h2, .signin-form h3, .signin-form h3 {
+	    font-size: 1em;
+	}
+	.top-grids {
+		margin: 1em 0 0 0;
+	}
+}
+/*-- //responsive --*/

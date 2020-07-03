@@ -1,0 +1,112 @@
+body{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgba(193, 238, 252, 0.719);
+  background-size: cover;
+  margin: 0px;
+  background-image: url(image/th\ \(1\).jfif);
+  padding: 0px;
+ 
+}
+ 
+
+.text{
+  text-align: center;
+  color: aliceblue;
+}
+@media (max-width: 768px ) {
+  header {
+    height: 90px 0px;
+   margin: 20px;
+  }
+  
+}
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+
+.nav-menu, .nav-menu * {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+/* Nav Meu Styling */
+.nav-menu a {
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  margin-top: 25px;
+  padding-right: 25px;
+  padding-left:  25px;
+  border-style: groove;
+  border-radius: 10px;
+
+}
+.nav-menu p{
+  text-align: right;
+  font-size: 20px;
+}
+
+.nav-menu a:hover{
+  background-color: rgba(13, 111, 223, 0.438);
+}
+/*<!---=======================STYLING Of Tabel========================---->*/
+table,th,td{
+  border: 1px solid rgb(118, 197, 250);
+  width: auto;
+  background: transparent;
+}
+.record{
+  height:1000px;
+  width: 50%;
+  margin-left: 50%;
+  padding: 0%;
+  
+}
+
+input[type=submit]{
+  border: 2px double rgb(153, 211, 238);
+  border-radius: 15px;
+  font-size: 18px;
+  background: transparent;
+}
+input:hover{
+  color: rgb(85, 175, 211);
+  background-color: rgb(179, 245, 240) ;
+}
+input[type=text]{
+  border: 2px dotted rgb(86, 194, 248);
+  border-radius: 10px;
+  padding: 10px;
+  margin-left: 80px;
+ 
+}
+/*<!---=======================STYLING OF MAP========================---->*/
+.map-container{ 
+  height:700px;
+  width: auto;
+  margin-left: 10px;
+  margin-top: -1004px;
+}
+.map-container h3{
+  margin-left: 150px;
+  font-family: 'Times New Roman', Times, serif;
+}
+#mapCanvas{
+
+  width: 48%;
+  height:60% ;
+  border:1px solid rgb(118, 197, 250);
+  margin-top: 30px;
+  
+
+}#mapCanvas2{
+
+  width: 100%;
+  height:60% ;
+  border:1px solid rgb(118, 197, 250);
+  margin-top: 60px;
+}

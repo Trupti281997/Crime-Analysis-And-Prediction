@@ -1,0 +1,23 @@
+{
+  "sqltools.connections": [
+    {
+      "askForPassword": false,
+      "database": "user",
+      "dialect": "MySQL",
+      "name": "trup",
+      "port": 3306,
+      "server": "localhost",
+      "username": "root"
+    },
+    {
+      "connectionTimeout": 60,
+      "database": "users",
+      "dialect": "MySQL",
+      "name": "project",
+      "password": "123456789",
+      "port": 3306,
+      "server": "localhost",
+      "username": "Tthakre"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+body{
+  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+  color: #fff;
+  background-color: #2f3035da;
+  background-image:url(images/431957.jpg) ;
+  background-size: cover;
+  margin: 0px;
+  padding: 0px;
+}
+
+.loginmsg{
+  text-shadow: green;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+.siginin{
+   background:rgba(62, 83, 95, 0.856);
+   padding: 40px;
+   width: 250px;
+   height: 42 0px;
+   margin-top: 80px;
+   margin-left:80px;
+   margin: 0 auto;
+   margin-top: 90px;
+   border-radius: 15px;
+   box-shadow: 0 15px 20px rgba(121, 117, 117, 0.973);
+   text-align: center;
+}
+.logo{
+  padding-top:0px 20px;
+}
+label{
+  text-align: center;
+  margin-left: 4px;
+}
+form{
+  width: 240px;
+  text-align: center;
+}
+input
+{
+  width: 240px;
+  text-align: center;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+  font-family: sans-serif;
+  font-size: 16px;
+  font: weight 200px;
+  padding: 10px 0;
+  transition: border 0.5s;
+  outline: none;
+  color:#fff;
+}
+input[type=button]{
+  border: none;
+  width: 190px;
+  background: white;
+  color:#000;
+  font-size: 16px;
+  line-height: 25px;
+  padding: 10px 0;
+  border-radius: 15px;
+  cursor:pointer;
+}
+button:hover
+{
+  color: #fff;
+  background-color:slategray ;
+}
+h2{
+    color:white ;
+}
+a{
+  color: rgb(10, 179, 231);
+  text-decoration: blink;
+}
+a:hover{
+  color: yellow;
+}
+
+::placeholder{
+  color: aliceblue;
+  opacity: 0.8;
+}
+.container{
+  margin-left: 60px;
+}
